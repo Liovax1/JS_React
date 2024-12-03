@@ -7,6 +7,7 @@ import Footer from './footer' //On importe le composant Footer
 import ShowPokemon from './ShowPokemon' //On importe le composant ShowPokemon
 import ListPokemons from './ListPokemons'
 import Faq from './Faq'
+import Message from './Message';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         <ShowPokemon /> {/* On affiche le composant ShowPokemon sur la page */}
         <ListPokemons /> {/* On affiche le composant ListPokemons sur la page */}
         <Faq /> {/* On affiche le composant Faq sur la page */}
+        <Message /> {/* On affiche le composant Message sur la page */}
       </main>
       <Footer /> {/* On affiche le composant Footer sur la page */}
     </>

@@ -4,7 +4,7 @@ const Faq = () => {
     const [isResponseDisplayed, setIsResponseDisplayed] = useState(false);
 
     const displayResponse = () => {
-        console.log('Question cliquée !');
+        console.log('C\'est cliqué !');
         setIsResponseDisplayed(true);
     };
 
